@@ -14,14 +14,10 @@
 代码:
 
 
-class Solution:
+    class Solution:
+
     def maxSubArray(self, nums: List[int]) -> int:
-        '''
-        observation: such a sequence need at least 1
-        
-        
-        
-        '''
+
         
         if(max(nums)<=0):
             return max(nums)
